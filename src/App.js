@@ -13,7 +13,9 @@ function App() {
   return (
     <Provider store={store}>
       <Layout>
-        <Header>Google Place Autocomplete</Header>
+        <Header style={{ backgroundColor: "#a5afb9" }}>
+          Google Place Auto complete
+        </Header>
         <Content style={{ padding: "20px" }}>
           <AutocompleteInput />
           <Map />
